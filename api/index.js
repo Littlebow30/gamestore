@@ -9,6 +9,7 @@ router.get('/health', (req, res, next) => {
 // ROUTER: /api/video-games
 router.use('/video-games', require('./videoGames'));
 
+
 // ROUTER: /api/board-games
 router.use('/board-games', require('./boardGames'));
 
